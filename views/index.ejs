@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume Builder</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Muli|Open+Sans+Condensed:300|Rubik|Ubuntu&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-4">
+				<div id="image">
+					<br>
+					<br>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV0I6VDKQ3vmT9y2QFvx7UZ4aTK_HZUbbHyIvmr_sgoa3sIBB6cg">
+				</div>
+				<br>
+				<br>
+				<br>
+				<div id="social_media">
+					<strong><%= data.Website1 %>: </strong><%= data.Link1 %>
+					<br>
+					<br>
+					<strong><%= data.Website1 %>: </strong><%= data.Link1 %>
+				</div>
+				<br>
+				<br>
+				<div>
+					<h3>SKILLS</h3>
+					<hr>
+					<div id="skills">
+						<ul>
+							<li><%= data.skills1 %></li>
+							<br>
+							<li><%= data.skills2 %></li>
+							<br>
+							<li><%= data.skills3 %></li>
+							<br>
+							<li><%= data.skills4 %></li>
+							<br>
+							<li><%= data.skills5 %></li>
+							<br>
+							<li><%= data.skills6 %></li>
+							<br>
+							<li><%= data.skills7 %></li>
+							<br>
+							<li><%= data.skills8 %></li>
+							<br>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<h3>LANGUAGES</h3>
+					<hr>
+					<div id="languages">
+						<%= data.Language1 %>
+						<br>
+						<%= data.Language2 %>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div id="title">
+					<br>
+					<h1 id="name"><%= data.name %></h1>
+					<br>
+					<h4 id="headline"><%= data.headline %></h4>
+					<p id="about_me"><%= data.about_me %></p>
+				</div>
+				<br>
+				<br>
+				<div id="work">
+					<h3>WORK EXPERIENCE</h3>
+					<hr>
+					<!-- <div id="work_experience"></div> -->
+					<div id="role"><%= data.Role1 %></div>
+					<div id="organisation"><%= data.Organisation1 %></div>
+					<div id="task">
+						<ul>
+							<li><%= data.Tasks11 %></li>
+							<li><%= data.Tasks12 %></li>
+							<li><%= data.Tasks13 %></li>
+						</ul>
+					</div>
+
+					<div id="role"><%= data.Role2 %></div>
+					<div id="organisation"><%= data.Organisation2 %></div>
+					<div id="task">
+						<ul>
+							<li><%= data.Tasks21 %></li>
+							<li><%= data.Tasks22 %></li>
+							<li><%= data.Tasks23 %></li>
+						</ul>
+					</div>
+				</div>
+				<br>
+				<br>
+				<div>
+					<h3>ORGANISATIONS</h3>
+					<hr>
+					<div class="organisations"><%= data.Organisations1 %></div>
+					<div class="organisations"><%= data.Organisations2 %></div>
+				</div>
+				<br>
+				<br>
+				<div>
+					<h3>EDUCATION</h3>
+					<hr>
+					<div id="education"></div>
+					<div class="course"><%= data.Course1 %></div>
+					<div class="school"><%= data.School1 %></div>
+
+					<br>
+
+					<div class="course"><%= data.Course2 %></div>
+					<div class="school"><%= data.School2 %></div>
+				</div>
+				<br>
+				<br>
+				<div>
+					<h3>HONOURS AND AWARDS</h3>
+					<hr>
+					<div id="awards"></div>
+					<div class="honour"><%= data.Honour1 %></div>
+					<div class="events"><%= data.Events1 %></div>
+
+					<br>
+
+					<div class="honour"><%= data.Honour2 %></div>
+					<div class="events"><%= data.Events2 %></div>
+
+
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+	</div>
+	
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+.row {
+	background-color: white;
+}
+
+body {
+	background-color: #0a304e;
+}
+
+h1 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 600;
+}
+
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+#role {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 23px;
+}
+
+#organisation {
+	font-family: 'Muli', sans-serif;
+}
+
+li {
+	font-family: 'Rubik', sans-serif;
+}
+
+.organisations {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 17px;
+}
+
+.course {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.honour {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+hr {
+	border-top: 1px solid #0a304e;
+}
+
+#languages {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#social_media {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 17px;
+}

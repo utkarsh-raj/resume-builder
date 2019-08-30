@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume Builder</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style type="text/css">
+		body {
+			background-color: #ffffff;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<form id="response" action="/resume_build" method="POST">
+			<div>
+				<h3>Basic Information</h3>
+				<label for="name">Name: </label>
+				<input type="text" name="name">
+				<label for="headline">Headline: </label>
+				<input type="text" name="headline">
+				<label for="about_me">About Me: </label>
+				<input type="text" name="about_me">
+			</div>
+			<div>
+				<h3>Work Experience</h3>
+				<label for="Role1">Role: </label>
+				<input type="text" name="Role1">
+				<label for="Organisation1">Organisation: </label>
+				<input type="text" name="Organisation1">
+				<br>
+					<label for="Tasks11">Task 1: </label>
+					<input type="text" name="Tasks11">
+					<label for="Tasks12">Task 2: </label>
+					<input type="text" name="Tasks12">
+					<label for="Tasks13">Task 3: </label>
+					<input type="text" name="Tasks13">
+
+				<br>
+				<br>
+
+				<label for="Role2">Role: </label>
+				<input type="text" name="Role2">
+				<label for="Organisation2">Organisation: </label>
+				<input type="text" name="Organisation2">
+
+
+				<br>
+
+					<label for="Tasks21">Task 1: </label>
+					<input type="text" name="Tasks21">
+					<label for="Tasks22">Task 2: </label>
+					<input type="text" name="Tasks22">
+					<label for="Tasks23">Task 3: </label>
+					<input type="text" name="Tasks23">
+			</div>
+			<div>
+				<h3>Organisations</h3>
+				<label for="Organisations1">Organisation 1: </label>
+				<input type="text" name="Organisations1">
+
+				<br>
+
+				<label for="Organisations2">Organisation 2: </label>
+				<input type="text" name="Organisations2">
+			</div>
+			<div>
+				<h3>Education</h3>
+				<label for="Course1">Course: </label>
+				<input type="text" name="Course1">
+				<label for="School1">School: </label>
+				<input type="text" name="School1">
+
+				<br>
+
+				<label for="Course2">Course: </label>
+				<input type="text" name="Course2">
+				<label for="School2">School: </label>
+				<input type="text" name="School2">
+			</div>
+			<div>
+				<h3>Honours and Awards</h3>
+				<label for="Honour1">Honour: </label>
+				<input type="text" name="Honour1">
+				<label for="Events1">Events: </label>
+				<input type="text" name="Events1">
+
+				<br>
+
+				<label for="Honour2">Honour: </label>
+				<input type="text" name="Honour2">
+				<label for="Events2">Events: </label>
+				<input type="text" name="Events2">
+			</div>
+
+			<div>
+				<h3>Social Media links</h3>
+				<label for="Website1">Website: </label>
+				<input type="text" name="Website1">
+				<label for="Link1">Link: </label>
+				<input type="text" name="Link1">
+
+				<br>
+
+				<label for="Website2">Website: </label>
+				<input type="text" name="Website2">
+				<label for="Link2">Link: </label>
+				<input type="text" name="Link2">
+			</div>
+
+			<br>
+
+
+			<div>
+				<h3>Languages Known</h3>
+				<label for="Language1">Language: </label>
+				<input type="text" name="Language1">
+				<label for="Language2">Language: </label>
+				<input type="text" name="Language2">
+			</div>
+
+			<div>
+				<h3>Skills</h3>
+				<input type="text" name="skills1">
+				<input type="text" name="skills2">
+				<input type="text" name="skills3">
+				<input type="text" name="skills4">
+				<input type="text" name="skills5">
+				<input type="text" name="skills6">
+				<input type="text" name="skills7">
+				<input type="text" name="skills8">
+			</div>
+
+			<input type="submit" id="send">
+		</form>
+	</div>
+	
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- <script type="text/javascript" src="script.js"></script> -->
+</body>
+</html>
